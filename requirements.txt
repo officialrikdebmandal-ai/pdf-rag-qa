@@ -1,0 +1,13 @@
+# Core (no paid API key required)
+pypdf>=5.0.0
+numpy>=1.26.0
+sentence-transformers>=3.0.0
+rank-bm25>=0.2.2
+
+# Tests
+pytest>=8.0.0
+
+# Optional, only needed for --llm local (Flan-T5) or --llm openai.
+# Not installed by default to keep the dependency list modest.
+#   pip install 'transformers>=4.40' torch
+#   pip install openai
